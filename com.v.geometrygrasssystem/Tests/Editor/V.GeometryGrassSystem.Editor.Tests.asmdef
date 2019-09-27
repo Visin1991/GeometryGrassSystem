@@ -1,0 +1,17 @@
+{
+   "name" : "V.GeometryGrassSystem.Editor.Tests",
+   "references":
+   [
+       "V.GeometryGrassSystem.Runtime",
+       "V.GeometryGrassSystem.Editor"
+   ],
+   "optionalUnityReferences": [],
+   "includePlatforms": ["Editor"],
+   "excludePlatforms": [],
+   "allowUnsafeCode": true,
+   "overrideReferences": true,
+   "precompiledReferences": [],
+   "autoReferenced": false,
+   "defineConstraints": [],
+   "versionDefines": []
+}

@@ -1,0 +1,11 @@
+{
+    "dependencies":
+    {
+    },
+    "description" : "non-AlphaTest Geometry Grass System",
+    "displayName" : "GeometryGrassSystem",
+    "name" : "com.v.geometrygrasssystem",
+    "repoPackagePath" : "com.v.geometrygrasssystem",
+    "unity" : "2019.1",
+    "version" : "0.0.1"
+}
