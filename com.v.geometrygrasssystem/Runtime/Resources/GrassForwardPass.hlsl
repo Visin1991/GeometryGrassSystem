@@ -126,7 +126,7 @@ float3 WaveGrass(float3 vertex, float4 uv, out float3 diffuse,out float4 uvWS)
 
 	float4 heightUV = float4(UVWS.x , UVWS.y , 0, 0);
 	float heightV = tex2Dlod(_HeightMap, heightUV).r;
-	float height = heightV * _HeightMultiplier * 2;
+	float height = heightV * _HeightMultiplier * 2;	//For some reason, We need scale by 2. maybe unity did some scale to the height map
 	
 	//diffuse = tex2Dlod(_DiffuseMap, float4(UVWS, 0, 0));
 	diffuse = half3(0.55, 0.8, 0.3);
